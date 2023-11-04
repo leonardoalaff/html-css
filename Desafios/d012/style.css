@@ -70,7 +70,8 @@ header a:hover, footer a:hover {
 }
 
 section {
-    background-image: url('imagens/background3.png');
+    background-color: rgb(0, 162, 255);
+    background-image: url('imagens/livro-blue.png');
     background-size: contain;
     background-position: right center;
     background-repeat: no-repeat;
@@ -92,7 +93,7 @@ section.banner {
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
     height: 200px;
-    background-image: url('imagens/banner5.png');
+    background-image: url('imagens/banner-blue.png');
     background-size: 100%;
     background-position: center center;
     
@@ -120,13 +121,13 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('imagens/pexel3.jpg');
+    background-image: url('imagens/banner00.jpg');
     background-position: right center;
     background-size: cover;
     color: black;
 }
 
-section#img02 {background-image: url('imagens/pexel6.jpg');
+section#img02 {background-image: url('imagens/banner02.jpg');
     background-position: top bottom;
     background-size: cover;
     color: black;
