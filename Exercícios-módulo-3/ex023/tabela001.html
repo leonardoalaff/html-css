@@ -11,21 +11,22 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-            border: 5px solid red;
-        }
-
-        tr.linha {
-            background-color: gray;
         }
 
         td {
+            
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: top; /*Alinhamento vertical*/
         }
 
-        td.dado {
-            background-color: yellow;
+        caption {
+            background-color: grey;
+            font-weight: bolder;
+            padding: 10px;
         }
     </style>
 </head>
@@ -37,12 +38,15 @@
     <!--Hierarquia de tabelas simples
         
         TABLE = tabela
-            TABLE ROW = linha de tabela
-                TABLE HEADER = cabeçalho de tabela
-                    TABLE DATA = dado de tabela
+            CAPTION
+                TABLE ROW = linha de tabela
+                    TABLE HEADER = cabeçalho de tabela
+                        TABLE DATA = dado de tabela
     -->
     <table>
-        <tr> <!--Primeira linha-->
+        <caption>população das unidades federativas</caption>
+        <tr> <!--Primeira linha-->                                  <!--Títulos = TH-->
+                                                                    <!--Dados = TD-->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
