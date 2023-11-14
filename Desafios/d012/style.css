@@ -46,6 +46,7 @@ header > h1 {
     transform: translate(5%, -40%);
 }
 
+
 header p  {
     position: absolute;
     color: black;
@@ -67,6 +68,7 @@ footer a {
 
 header a:hover, footer a:hover {
     text-decoration: underline;
+    transform: scale(1.4);
 }
 
 section {
